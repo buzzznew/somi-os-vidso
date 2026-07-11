@@ -3,42 +3,59 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Single Post</title>
+<title>Play Now</title>
 
 <style>
 body{
     margin:0;
-    background:#f5f5f5;
+    padding:0;
     font-family:Arial,sans-serif;
+    background:#f5f5f5;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
 }
-.post{
-    max-width:500px;
-    margin:30px auto;
+
+.container{
+    max-width:400px;
+    width:90%;
+    text-align:center;
     background:#fff;
-    border-radius:10px;
+    border-radius:15px;
     overflow:hidden;
-    box-shadow:0 4px 10px rgba(0,0,0,.15);
+    box-shadow:0 5px 20px rgba(0,0,0,.2);
 }
-.post img{
+
+.container img{
     width:100%;
     display:block;
 }
-.title{
-    padding:15px;
-    font-size:22px;
+
+.play-btn{
+    display:block;
+    background:#ff0000;
+    color:#fff;
+    text-decoration:none;
+    font-size:24px;
     font-weight:bold;
-    text-align:center;
+    padding:18px;
+    transition:.3s;
+}
+
+.play-btn:hover{
+    background:#cc0000;
 }
 </style>
-
 </head>
+
 <body>
 
-<div class="post">
-    <a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh41QMNlXiNg1HjsLEOn3HLZT7QEEUCqUqW1wNWZ0cSxHMLloEbBIOIi_e5UbqL45cMAtDqI70D7lnISey4WllRsshhwKtNGXWs_IXdyfmxBDvAessDJO7wUbhwDz-L-4AiKPBCt50rj8FOAqKwFbmPbfRiRxoLXxxQOnFCdbI-cVQx5S94IGNjbIc1tFND/s1600/52140.jpg" target="_blank">
-        <img src="images/post.jpeg" alt="Post Image">
+<div class="container">
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6YT1K1j4ORzMy2hyphenhyphentU6mWnOmAKHyVY4PuTYPMvSi5c5SfQsTLyB3bpgcDZpG0Ws_WM4_zHhnC3CV43Z80w51RlnD1JtFEE9zMAq8fsnM3XNnvYrBBqsfswkkp4BvXYsevfRoQtetvM-_KBZSB3LhGok46wj2671x8qwVIEwgQxq3VLn8UTtGacfJYtL9e/s526/52139.jpg" alt="Image">
+    <a class="play-btn" href="https://your-link.com">
+        ▶️ Play Now 🎮
     </a>
-    <div class="title">🔥 Play Now</div>
 </div>
 
 </body>
